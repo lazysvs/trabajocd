@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fondos de pantalla gratis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+    <script>
+        function downloadImage(imageUrl) {
+            const link = document.createElement('a');
+            link.href = imageUrl;
+            link.download = 'Wallpaper';
+            link.click();
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Fondos de pantalla</h1>
+        </div>
+
+        <div class="gallery">
+            <img src="C:\Users\lol54\OneDrive\Escritorio\MARIANN\trabajocd\fondo2.JPG" alt="Wallpaper 1">
+            <img src="C:\Users\lol54\OneDrive\Escritorio\MARIANN\trabajocd\fondo1.JPEG" alt="Wallpaper 2">
+            <img src="C:\Users\lol54\OneDrive\Escritorio\MARIANN\trabajocd\fondo5.JPG" alt="Wallpaper 3">
+            <img src="C:\Users\lol54\OneDrive\Escritorio\MARIANN\trabajocd\fondo6.JPG" alt="Wallpaper 4">
+            <img src="C:\Users\lol54\OneDrive\Escritorio\MARIANN\trabajocd\fondo7.JPG" alt="Wallpaper 5">
+            <img src="C:\Users\lol54\OneDrive\Escritorio\MARIANN\trabajocd\fondo3.JPEG" alt="Wallpaper 6">
+            <img src="C:\Users\lol54\OneDrive\Escritorio\MARIANN\trabajocd\fondo11.JPG" alt="Wallpaper 7">
+            <img src="C:\Users\lol54\OneDrive\Escritorio\MARIANN\trabajocd\fondo8.JPG" alt="Wallpaper 8">
+            <img src="C:\Users\lol54\OneDrive\Escritorio\MARIANN\trabajocd\fondo9.JPEG" alt="Wallpaper 9">
+            <img src="C:\Users\lol54\OneDrive\Escritorio\MARIANN\trabajocd\fondo10.JPG" alt="Wallpaper 10">
+        </div>
+
+        <p style="text-align: center;">Click en la imagen para descargar los fondos de pantalla de manera gratuita</p>
+        <div class="footer">
+            <p style="color: rgb(51, 49, 49);">Equipo: </p>
+            <p style="color: gray;">
+                Mariann Edith Morgan Rivera<br>
+                Leslie Lizbeth Román Vega <br>
+                Germán Ruiz Valenzuela<br>
+                Dhana Valeria Díaz Gamboa<br>
+                Juan Carlos Encinas</p>
+        </div>
+    </div>
+</body>
+</html>
